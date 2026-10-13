@@ -1,19 +1,19 @@
 # SmartPresence
 
-> **La digitalizaicón definitiva del control horario del profesorado.**
+> **La digitalización definitiva del control horario del profesorado.**
 
 Proyecto optativo intermodular desarrollado para los ciclos formativos **DAM1 / ASIX1**
 
 ---
 
 ## Objetivo del repositorio
-Centralizar el código fuente, la infraestructura de despliegue, el diseño de hardware y la documentación técnica del sistema **SMartPresence**. El proyecto integra un lector físcio RFID con microcontrolador ESP32, un backed modular con API REST y base de datos relacional desplegados con DOcker, y una aplicación móvil desarrollada en Flutter para la consulta en tiempo real del estado del profesorado.
+Centralizar el código fuente, la infraestructura de despliegue, el diseño de hardware y la documentación técnica del sistema **SMartPresence**. El proyecto integra un lector físico RFID con microcontrolador ESP32, un backed modular con API REST y base de datos relacional desplegados con Docker, y una aplicación móvil desarrollada en Flutter para la consulta en tiempo real del estado del profesorado.
 
 ---
 
 ## Equipo y Roles (Sprint 1)
 **Angel Sanz Barragan**: Scrum Master ¬ Responsable de Hardware e Infrastructura Backend (ESP32, API REST, Docker).
-**MArk Ruiz Correa**: Product Owner auxiliar & Responsable de Cliente Móvil y Documentación (Flutter, UX/UI, Memoria LaTeX).
+**Mark Ruiz Correa**: Product Owner auxiliar & Responsable de Cliente Móvil y Documentación (Flutter, UX/UI, Memoria LaTeX).
 
 ---
 
