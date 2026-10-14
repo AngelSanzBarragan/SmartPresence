@@ -1,0 +1,48 @@
+\documentclass[12pt, a4paper]{report}
+
+% Paquetes básicos
+\usepackage[utf8]{inputenc} 
+\usepackage[spanish]{babel} 
+\usepackage{graphicx} 
+\usepackage{hyperref} 
+\usepackage{geometry}
+\geometry{a4paper, margin=2.5cm}
+
+% Información del documento
+\title{\textbf{Memoria Técnica: SmartPresence}}
+\author{Angel Sanz Barragan \and Mark Ruiz Correa}
+\date{Sprint 1 - 21/10/2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\chapter{Introducción, problema y objetivos}
+
+\section{Nombre del proyecto y frase de venta}
+El proyecto se denomina \textbf{SmartPresence}. \\
+Nuestra frase de venta que define el producto es: \textit{"La digitalización definitiva del control horario del profesorado."}
+
+\section{Problema o necesidad detectada y usuario/cliente objetivo}
+\subsection{Problema detectado}
+En la actualidad, muchos centros educativos siguen dependiendo de sistemas manuales o plataformas informáticas lentas para registrar la asistencia del profesorado. Esto genera un control ineficiente, pérdida de tiempo para los docentes y dificultad para que el equipo directivo sepa en tiempo real qué profesores se encuentran dentro del recinto escolar ante cualquier incidencia o sustitución.
+
+\subsection{Usuario y cliente objetivo}
+El sistema está diseñado para dos perfiles principales:
+\begin{itemize}
+    \item \textbf{Cliente (Equipo Directivo / Administración):} Quienes necesitan visualizar el estado de presencia en tiempo real de la plantilla para gestionar sustituciones y emergencias.
+    \item \textbf{Usuario Final (Profesorado de ciclos formativos DAM/ASIX):} Quienes interactúan con el hardware para fichar de manera rápida y sin fricciones mediante su tarjeta RFID.
+\end{itemize}
+
+\section{Objetivos generales del proyecto}
+Para resolver el problema planteado, el proyecto SmartPresence persigue los siguientes objetivos generales:
+\begin{itemize}
+    \item \textbf{Automatización del registro:} Diseñar e implementar un dispositivo de hardware IoT basado en un microcontrolador ESP32 y un lector MFRC522 que permita el fichaje autónomo mediante tarjetas RFID.
+    \item \textbf{Centralización de datos:} Desarrollar una API REST robusta que actúe como backend, soportada por una base de datos relacional desplegada en contenedores Docker, garantizando la persistencia y seguridad de la información.
+    \item \textbf{Accesibilidad móvil:} Crear una aplicación móvil multiplataforma utilizando el framework Flutter, que consuma la API y muestre de forma visual y en tiempo real (mediante indicadores semafóricos verde/rojo) la presencia del profesorado en el centro.
+    \item \textbf{Aplicación de metodologías ágiles:} Gestionar todo el ciclo de vida del desarrollo de software mediante Scrum, versionado de código en GitHub y documentación técnica en formato LaTeX.
+\end{itemize}
+
+\end{document}
