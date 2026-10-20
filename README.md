@@ -6,7 +6,7 @@ Proyecto optativo intermodular desarrollado para los ciclos formativos **DAM1 / 
 
 ---
 
-## 🎯 Objetivo del repositorio
+## Objetivo del repositorio
 Centralizar el código fuente, la infraestructura de despliegue, el diseño de hardware y la documentación técnica del sistema **SmartPresence**. El proyecto integra un lector físico RFID con microcontrolador ESP32, un backend modular con API REST y base de datos relacional desplegados con Docker, y una aplicación móvil desarrollada en Flutter para la consulta en tiempo real del estado del profesorado.
 
 ---
